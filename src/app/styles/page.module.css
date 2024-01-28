@@ -1,0 +1,46 @@
+.main {
+  min-height: 100vh; 
+  margin: .5rem 0 2rem 0;
+}
+
+.messageHeroWrapper{
+  position: relative;
+  margin-top: 5rem;
+}
+
+.messageHero{
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+  width: 77%;
+  margin: 0 auto;
+  max-height: 338px;
+  /* background-color: red; */
+}
+
+.messageHero > h1{
+  font-size: 6rem;
+  font-weight: bold;
+  color: #3BCAEB;
+}
+
+.asideContentMessage{
+  /* background-color: green; */
+  color: #4F3B3C;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.asideContentMessage > h3{
+  font-size: 2rem;
+}
+
+.asideContentMessage > p{
+  font-size: 1.5rem;
+}
+
+.asideContentMessage > p > span{
+  color: #EB347A;
+}

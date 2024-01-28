@@ -1,0 +1,75 @@
+
+
+.carouselImages{
+    width: 100%;
+    margin: 5rem 0 3rem 0;
+    padding: 1rem;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+}
+
+.slider_box_left, .slider_box_right{
+    width: 750px;
+    height: auto;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.slider_box_left ul, .slider_box_right ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 10s infinite alternate ease-in-out;
+
+}
+
+.image_item_left, .image_item_right{
+    width: 100%;
+    list-style: none;
+    position: relative;
+    /* esto nos permitira poner en absoluto algun texto en caso queramos poner en medio de las
+    imagenes del carrusel. */
+}
+
+.image_left, .image_right{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.7 );
+}
+
+@keyframes slide {
+    0%{
+        margin-left: 0;
+    }
+    20%{
+        margin-left: 0;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    45%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    70%{
+        margin-left: -200%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    100%{
+        margin-left: -300%;
+    }
+    
+
+}
+
+
+
+
+
+

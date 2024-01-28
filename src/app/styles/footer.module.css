@@ -1,0 +1,53 @@
+
+.footerPagee{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 229px;
+    height: auto;
+    margin-left: 1rem;
+    background-color:  #FCFEF5;
+    padding: 1rem 0;
+}
+
+.contactArea{
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+    align-items: center;
+    min-width: 261px;
+    /* background-color: red; */
+}
+
+.contactTitle{
+    font-size: 21px;
+}
+
+.svgContactIcons{
+    display: grid;
+    max-width: 143px;
+    grid-gap: 35px;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+
+.policyArea{
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: .75rem;
+    height: 100%;
+    color: #324930;
+    text-decoration: underline;
+    /* background-color: red; */
+}
+
+.linkFooterText{
+    color: #324930;
+    text-decoration: none;
+}
+
+/* .paymentMethods{
+    background-color: red;
+} */

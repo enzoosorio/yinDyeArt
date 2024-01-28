@@ -1,0 +1,84 @@
+
+.navbarDiv{
+    background-color: #FCFEF5;
+    display: flex;
+    justify-content: space-around;
+    gap: 12rem;
+    align-items: center;
+    margin: 0;
+    color: #324930;
+    position: sticky;
+    top: 0;
+    z-index: 100000;
+}
+
+.countdown{
+    display: flex;
+    flex-direction: column;
+    gap: .1rem;
+    /* background-color: green; */
+    min-width: 243px;
+}
+
+.specification{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    text-align: center;
+    font-size: 1.4rem;
+    transition: color .3s ease;
+}
+
+.specification:hover{
+    color: #11515f;
+}
+
+.timeOfCountdown{
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    color: #3BCAEB;
+}
+
+.linksNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 1rem 1rem;
+    /* background-color: violet; */
+    min-width: 686px;
+}
+
+
+.fontLinksNavbar{
+    font-size: 1.5rem;
+    color: #324930;
+}
+
+.fontLinkStyle{
+    text-decoration: none;
+    color: #324930;
+    transition: color .3s ease;
+}
+
+.activeLink{
+    color: #3BCAEB;
+}
+
+
+.fontLinkStyle:hover{
+    color: #3BCAEB;
+}
+
+.fontLinkStyle:active{
+    color: #0b3842;
+}
+
+
+.heartSvgA{
+    color: red;
+    fill: red;
+}
