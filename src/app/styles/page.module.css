@@ -1,6 +1,14 @@
+
+
 .main {
   min-height: 100vh; 
   margin: .5rem 0 2rem 0;
+}
+
+.main > hr{
+  border: 0;
+  height: 1px; /* Ajusta la altura según tus preferencias */
+  background: linear-gradient(to right, #f0c9c9, #888, #ccc);
 }
 
 .messageHeroWrapper{
@@ -9,9 +17,10 @@
 }
 
 .messageHero{
+  /* background-color: red; */
   display: flex;
   align-items: center;
-  gap: 8rem;
+  gap: 4rem;
   width: 77%;
   margin: 0 auto;
   max-height: 338px;
@@ -19,7 +28,7 @@
 }
 
 .messageHero > h1{
-  font-size: 6rem;
+  font-size: 5.31rem;
   font-weight: bold;
   color: #3BCAEB;
 }
@@ -30,15 +39,15 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1.1rem;
+  /* gap: .7rem; */
 }
 
 .asideContentMessage > h3{
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .asideContentMessage > p{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .asideContentMessage > p > span{

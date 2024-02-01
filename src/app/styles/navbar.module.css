@@ -1,15 +1,25 @@
 
-.navbarDiv{
-    background-color: #FCFEF5;
+.headerPage{
+    /* background-color: red; */
     display: flex;
-    justify-content: space-around;
-    gap: 12rem;
+    justify-content: center;
     align-items: center;
-    margin: 0;
-    color: #324930;
     position: sticky;
     top: 0;
     z-index: 100000;
+    width: 100%;
+    background-color: #FCFEF5;
+}
+
+.navbarDiv{
+    background-color: #FCFEF5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 1rem; */
+    margin: 0 auto;
+    color: #324930;
+    width: 93%;
 }
 
 .countdown{
@@ -25,7 +35,7 @@
     justify-content: space-around;
     gap: 1rem;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1rem;
     transition: color .3s ease;
 }
 
@@ -34,7 +44,7 @@
 }
 
 .timeOfCountdown{
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,7 +55,7 @@
 .linksNavbar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     gap: 3rem;
     padding: 1rem 1rem;
     /* background-color: violet; */
@@ -54,7 +64,7 @@
 
 
 .fontLinksNavbar{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #324930;
 }
 

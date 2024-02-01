@@ -2,6 +2,9 @@ import Image from "next/image";
 import styles from "./styles/page.module.css";
 import { ebGaramondFont } from '@/app/lib/fonts'
 import { CarouselHero } from "./ui/carouselHero";
+import { LastReleases } from "./ui/lastReleases";
+import { ArticlesWrapper } from "./ui/articlesYin&Models";
+import { SpecifiesHero } from "./ui/specifiesHero";
 
 export default function Home() {
 
@@ -22,6 +25,11 @@ export default function Home() {
       </section>
 
       <CarouselHero />
+      <LastReleases />
+
+      <ArticlesWrapper />
+
+      <SpecifiesHero />
 
     </main>
   );

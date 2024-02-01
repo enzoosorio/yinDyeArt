@@ -1,0 +1,23 @@
+
+
+.contentWrapper{
+    height: 300px;
+    display: flex;
+    /* background-color: red; */
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+.itemWrapper{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 190px;
+    text-align: center;
+    gap: 1rem;
+    /* background-color: green; */
+    font-size: 1.5rem;
+    color: #324930;
+}

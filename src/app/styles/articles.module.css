@@ -1,0 +1,66 @@
+
+.articlesWrapper{
+    height: 1200px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.articleOne, .articleTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    background-color:aqua ;
+    border-radius: 16px;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.articleOne{
+    background: linear-gradient(to bottom, #066b72, #43DBDB 75%, #61d3d3 ,  #C7FAFA, #FFFFFF);
+    box-shadow: 0 0 5px 2px rgba(23, 100, 131, 0.7);
+}
+
+.articleTwo{
+    background: linear-gradient(to top, #066b72, #43DBDB 75%, #61d3d3 ,  #C7FAFA, #FFFFFF);
+    box-shadow: 0 0 5px 2px rgba(132,154,187, 0.7);
+}
+
+.imagesYin{
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-between;
+    width: 540px;
+    padding-left: 1rem;
+}
+
+.articleOne h3{
+    font-size: 2.2rem;
+    width: 350px;
+    /* background-color: red; */
+    padding-right: 2rem;
+    text-wrap: pretty;
+    color: white;
+}
+
+/* aca desde el articulo 2 */
+
+.messageModelsWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 2rem; 
+    /* background-color: red; */
+    width: 150px;
+    text-align: center;
+}
+
+.messageModelsWrapper span {
+    color: red;
+}
