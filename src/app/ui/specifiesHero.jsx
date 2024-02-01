@@ -15,8 +15,14 @@ export const SpecifiesHero = () => {
 
   return (
     <section className={styles.contentWrapper}>
-      {specifiesItems.map((item) => (
-        <CardItem title={item.title} icon={item.icon} width={100} height={99} />
+      {specifiesItems.map((item, index) => (
+        <CardItem
+          key={index}
+          title={item.title}
+          icon={item.icon}
+          width={100}
+          height={99}
+        />
       ))}
     </section>
   );

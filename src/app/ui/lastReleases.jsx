@@ -7,9 +7,9 @@ import PoloTieDye3 from "@/images/polos_600x600/polotiedyefalabella600x600_3.jpg
 
 export const LastReleases = () => {
   const lastReleases = [
-    { imageTshirt: PoloTieDye1, titleTshirt: "Polo Tie Dye 1" },
-    { imageTshirt: PoloTieDye2, titleTshirt: "Polo Tie Dye 2" },
-    { imageTshirt: PoloTieDye3, titleTshirt: "Polo Tie Dye 3" },
+    { id: "001", imageTshirt: PoloTieDye1, titleTshirt: "Polo Tie Dye 1" },
+    { id: "002", imageTshirt: PoloTieDye2, titleTshirt: "Polo Tie Dye 2" },
+    { id: "003", imageTshirt: PoloTieDye3, titleTshirt: "Polo Tie Dye 3" },
   ];
 
   return (
@@ -20,6 +20,7 @@ export const LastReleases = () => {
       <div className={styles.cardsWrapper}>
         {lastReleases.map((itemLastRelease) => (
           <CardLastReleases
+            key={itemLastRelease.id}
             imageTshirt={itemLastRelease.imageTshirt}
             titleTshirt={itemLastRelease.titleTshirt}
           />
