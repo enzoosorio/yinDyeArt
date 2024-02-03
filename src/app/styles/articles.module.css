@@ -30,7 +30,7 @@
     box-shadow: 0 0 5px 2px rgba(132,154,187, 0.7);
 }
 
-.imagesYin{
+.imagesYinwithButtons{
     display: flex;
     /* background-color: red; */
     align-items: center;
@@ -40,13 +40,108 @@
 }
 
 .articleOne h3{
-    font-size: 2.2rem;
+    font-size: 2rem;
     width: 350px;
     /* background-color: red; */
     padding-right: 2rem;
     text-wrap: pretty;
     color: white;
 }
+
+.wrapperYinImages{
+    position: relative;
+    /* background-color: green; */
+    width: 320px;
+    overflow: hidden;
+    /* z-index: -1; */
+}
+
+.wrapperYinImagesSlider{
+    position: relative;
+    /* background-color: green; */
+    width: 240px;
+    overflow: hidden;
+    /* z-index: -1; */
+}
+
+.ulWrapperYinImages{
+    width: 700%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.showImageTwo{
+    margin-left: -100%;
+}
+
+.showImageThree{
+    margin-left: -200%;
+}
+
+.showImageFour{
+    margin-left: -300%;
+}
+
+.showImageFive{
+    margin-left: -400%;
+}
+
+.showImageSix{
+    margin-left: -500%;
+}
+
+.showImageSeven{
+    margin-left: -600%;
+}
+
+
+.item__imageYin{
+    width: 100%;
+    list-style: none;
+}
+
+.imageYin{
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.7 );
+    border-radius: 16px;
+}
+
+.imagesYinwithButtons button {
+    width: 40px;
+    /* background-color: red; */
+}
+
+.arrowBack, .arrowForward{
+    width: 100%;
+    height: 42px;
+    color: #C7FAFA;
+    transition: color .194s ease-in;
+}
+
+.arrowBack:hover, .arrowForward:hover{
+    color: whitesmoke;
+    transform: scale(1.2);
+}
+
+.arrowBackDisabled, .arrowBackDisabled:hover,
+.arrowForwardDisabled, .arrowForwardDisabled:hover{
+    color:#5c6161;
+    transform: none;
+}
+
+@media (max-width : 768px) {
+    .articleOne h3{
+        font-size: 1.2rem;
+        width: 300px;
+        /* background-color: red; */
+        padding-right: 2rem;
+        text-wrap: pretty;
+        color: white;
+    }
+}
+
 
 /* aca desde el articulo 2 */
 
@@ -63,4 +158,20 @@
 
 .messageModelsWrapper span {
     color: red;
+}
+
+.wrapperModelRight, .wrapperModelLeft{
+    position: relative;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.modelImage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
