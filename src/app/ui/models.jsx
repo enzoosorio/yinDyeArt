@@ -8,7 +8,7 @@ import Marly4 from "../../../public/models/marly/marly5.JPG";
 import Marly5 from "../../../public/models/marly/marly6.JPG";
 import Marly6 from "../../../public/models/marly/marly8.JPG";
 import Marly7 from "../../../public/models/marly/marly9.JPG";
-import Marly8 from "../../../public/models/marly/marly10.JPG";
+import Marly8 from "../../../public/models/marly/marly10.jpg";
 //----
 import FarroSofia1 from "../../../public/models/sofia_farro/farro_sofia1.jpg";
 import FarroSofia2 from "../../../public/models/sofia_farro/farro_sofia3.jpg";
